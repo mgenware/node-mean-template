@@ -13,6 +13,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "noUncheckedIndexedAccess": true,
+    "noEmitOnError": true,
     "importHelpers": true,
     "newLine": "lf"
   }
