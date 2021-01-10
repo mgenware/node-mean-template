@@ -1,5 +1,8 @@
 # node-mean-template
 
+[![Build Status](https://github.com/mgenware/node-mean-template/workflows/Build/badge.svg)](https://github.com/mgenware/node-mean-template/actions)
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
+
 Node.js/TypeScript boilerplate project
 
 - Uses TypeScript 3 project references
