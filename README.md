@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/mgenware/node-mean-template/workflows/Build/badge.svg)](https://github.com/mgenware/node-mean-template/actions)
 [![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/node-mean-template)
 
-Node.js TypeScript boilerplate project.
+Node.js TypeScript boilerplate project. For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc).
 
 - Uses TypeScript 3 project references
 - Commands for development, testing, linting, clean and build
