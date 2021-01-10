@@ -1,9 +1,9 @@
 # node-mean-template
 
 [![Build Status](https://github.com/mgenware/node-mean-template/workflows/Build/badge.svg)](https://github.com/mgenware/node-mean-template/actions)
-[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/node-mean-template)
 
-Node.js/TypeScript boilerplate project
+Node.js TypeScript boilerplate project.
 
 - Uses TypeScript 3 project references
 - Commands for development, testing, linting, clean and build
@@ -32,11 +32,11 @@ Node.js/TypeScript boilerplate project
 
 ### Other scripts
 
-Usually, you do not need to manually run these scripts, they are already integrated into other scripts.
+You do not need to manually run these scripts, they are already integrated into other scripts.
 
 - `yarn r lint` lints the project using ESLint, auto triggered by `yarn r build`.
-- `yarn r clean` deletes compiled files, auto triggered by `yarn r dev` or `yarn r build`.
+- `yarn r clean` deletes all build artifacts, auto triggered by `yarn r dev` or `yarn r build`.
 
 ### No `prepublishOnly`
 
-The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `yarn test` before publishing.
+The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `yarn test`, which runs `yarn r build` before publishing.
