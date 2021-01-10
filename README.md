@@ -5,13 +5,6 @@ Node.js/TypeScript boilerplate project
 - Uses TypeScript 3 project references
 - Commands for development, testing, linting, clean and build
 
-## Usage
-
-- Make sure yarn is installed
-- Clone this project
-- Set a valid project name in `package.json`
-- Run `sh init.sh` to install the latest dependencies (**Windows users: you may have to manually run the stuff in `init.sh`**)
-
 ## Folder structure
 
 |              | Description                                | Uploaded to Git | Uploaded to npm |
