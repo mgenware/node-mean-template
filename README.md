@@ -2,6 +2,8 @@
 
 [![Build Status](https://github.com/mgenware/node-mean-template/workflows/Build/badge.svg)](https://github.com/mgenware/node-mean-template/actions)
 [![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/node-mean-template)
+[![npm version](https://img.shields.io/npm/v/node-mean-template.svg?style=flat-square)](https://npmjs.com/package/node-mean-template)
+[![Node.js Version](http://img.shields.io/node/v/node-mean-template.svg?style=flat-square)](https://nodejs.org/en/)
 
 Node.js TypeScript boilerplate project. For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc).
 
@@ -24,7 +26,9 @@ Node.js TypeScript boilerplate project. For Web components projects, see [node-m
 ### For development
 
 - `yarn r dev` starts the development mode, which watches and compiles all source files including tests files.
-- `yarn r t` runs tests in development mode. You can keep two terminal tabs during development, one for `yarn dev`, the other for `yarn r t`.
+- `yarn r t` runs tests in development mode (requires build files).
+
+You can keep two terminal tabs during development, one for `yarn dev`, the other for `yarn r t`.
 
 ### For production
 
