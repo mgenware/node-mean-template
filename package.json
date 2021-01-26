@@ -2,6 +2,7 @@
   "name": "__PKG_NAME__",
   "version": "0.0.0",
   "description": "__DESCRIPTION__",
+  "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "author": "Mgenware (https://github.com/mgenware)",
@@ -17,7 +18,7 @@
     "test": "daizong build"
   },
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=14.0.0"
   },
   "files": [
     "dist/**/*.js",
@@ -36,7 +37,7 @@
     "eslint-config-airbnb-typescript-lite": "^12.0.0",
     "eslint-config-mgenware": "^0.0.5",
     "eslint-plugin-import": "^2.22.1",
-    "mgenware-tsconfig-node": "^12.1.0",
+    "mgenware-tsconfig-node": "^14.0.1",
     "mocha": "^8.2.1",
     "source-map-support": "^0.5.19",
     "typescript": "^4.1.3"

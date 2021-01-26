@@ -5,10 +5,15 @@
 [![npm version](https://img.shields.io/npm/v/node-mean-template.svg?style=flat-square)](https://npmjs.com/package/node-mean-template)
 [![Node.js Version](http://img.shields.io/node/v/node-mean-template.svg?style=flat-square)](https://nodejs.org/en/)
 
-Node.js TypeScript boilerplate project. For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc).
+Node.js TypeScript boilerplate project.
 
-- Uses TypeScript 3 project references
+- Node v14+
+- **ES modules**
+- Uses TypeScript 3 project references for source and test projects
 - Commands for development, testing, linting, clean and build
+
+> - For CommonJS modules, go to [this branch](https://github.com/mgenware/node-mean-template/tree/cjs)
+> - For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
 
 ## Folder structure
 
