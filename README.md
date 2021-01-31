@@ -24,7 +24,7 @@ Node.js TypeScript boilerplate project.
 | `dist`       | Compiled JavaScript, type definition files | ❌              | ✅              |
 | `dist_tests` | Compiled JavaScript tests files            | ❌              | ❌              |
 
-## Scripts
+## Build Instructions
 
 > This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `yarn r <script>` or `npm run r <script>`.
 
