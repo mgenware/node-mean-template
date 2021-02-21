@@ -33,7 +33,7 @@ Node.js TypeScript boilerplate project.
 - `yarn r dev` starts the development mode, which watches and compiles all source files including tests files.
 - `yarn r t` runs tests in development mode (requires build files).
 
-You can keep two terminal tabs during development, one for `yarn dev`, the other for `yarn r t`.
+You can keep two terminal tabs during development, one for `yarn r dev`, the other for `yarn r t`.
 
 ### For production
 
