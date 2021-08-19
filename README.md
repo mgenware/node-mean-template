@@ -7,7 +7,6 @@ Node.js TypeScript boilerplate project.
 - Uses TypeScript 3 project references for source and test projects
 - Commands for development, testing, linting, clean and build
 
-> - For CommonJS modules, go to [this branch](https://github.com/mgenware/node-mean-template/tree/cjs)
 > - For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
 
 ## Folder structure
