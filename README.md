@@ -1,9 +1,15 @@
 # node-mean-template
 
-[![Build Status](https://github.com/mgenware/node-mean-template/workflows/Build/badge.svg)](https://github.com/mgenware/node-mean-template/actions)
-[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/node-mean-template)
-[![npm version](https://img.shields.io/npm/v/node-mean-template.svg?style=flat-square)](https://npmjs.com/package/node-mean-template)
-[![Node.js Version](http://img.shields.io/node/v/node-mean-template.svg?style=flat-square)](https://nodejs.org/en/)
+Please replace `__PKG_NAME__` with your package name.
+
+---
+
+# **PKG_NAME**
+
+[![Build Status](https://github.com/mgenware/__PKG_NAME__/workflows/Build/badge.svg)](https://github.com/mgenware/__PKG_NAME__/actions)
+[![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/__PKG_NAME__)
+[![npm version](https://img.shields.io/npm/v/__PKG_NAME__.svg?style=flat-square)](https://npmjs.com/package/__PKG_NAME__)
+[![Node.js Version](http://img.shields.io/node/v/__PKG_NAME__.svg?style=flat-square)](https://nodejs.org/en/)
 
 Node.js TypeScript boilerplate project.
 
