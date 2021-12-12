@@ -7,7 +7,7 @@ Node.js TypeScript boilerplate project.
 - Uses TypeScript 3 project references for source and test projects
 - Commands for development, testing, linting, clean and build
 
-> - For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
+> For a Web components project, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
 
 ## Folder structure
 
@@ -20,29 +20,29 @@ Node.js TypeScript boilerplate project.
 
 ## Build Instructions
 
-> This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `yarn r <script>` or `npm run r <script>`.
+> This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `npm run r <script>` or `yarn r <script>`.
 
 ### For development
 
-- `yarn r dev` starts the development mode, which watches and compiles all source files including tests files.
-- `yarn r t` runs tests in development mode (requires build files).
+- `npm run r dev` starts the development mode, which watches and compiles all source files including tests files.
+- `npm run r t` runs tests in development mode (requires build files).
 
-You can keep two terminal tabs during development, one for `yarn r dev`, the other for `yarn r t`.
+You can keep two terminal tabs during development, one for `npm run r dev`, the other for `npm run r t`.
 
 ### For production
 
-- `yarn r build` cleans, lints, compiles the project and runs tests.
+- `npm run r build` cleans, lints, compiles the project and runs tests.
 
 ### Other scripts
 
 You do not need to manually run these scripts, they are already integrated into other scripts.
 
-- `yarn r lint` lints the project using ESLint, auto triggered by `yarn r build`.
-- `yarn r clean` deletes all build artifacts, auto triggered by `yarn r dev` or `yarn r build`.
+- `npm run r lint` lints the project using ESLint, auto triggered by `#build`.
+- `npm run r clean` deletes all build artifacts, auto triggered by `#dev` or `#build`.
 
 ### No `prepublishOnly`
 
-The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `yarn test`, which runs `yarn r build` before publishing.
+The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `npm run r build` before publishing.
 
 ### Badges
 
