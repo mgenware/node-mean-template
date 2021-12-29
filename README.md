@@ -4,10 +4,10 @@ Node.js TypeScript boilerplate project.
 
 - Node v14+
 - **ES modules**
-- Uses TypeScript 3 project references for source and test projects
-- Commands for development, testing, linting, clean and build
+- Uses TypeScript 3 project references for source and tests
+- Scripts for development, testing, linting, clean and build
 
-> For a Web components project, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
+> For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
 
 ## Folder structure
 
@@ -42,7 +42,7 @@ You do not need to manually run these scripts, they are already integrated into 
 
 ### No `prepublishOnly`
 
-The `prepublishOnly` script was removed, we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `npm run r build` before publishing.
+The `prepublishOnly` script was removed as we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `npm run r build` before publishing.
 
 ### Badges
 
