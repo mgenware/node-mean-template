@@ -3,7 +3,7 @@
 Node.js TypeScript boilerplate project.
 
 - Node v14+
-- **ES modules**
+- **ES Modules**
 - Uses TypeScript 3 project references for source and tests
 - Scripts for development, testing, linting, clean and build
 
@@ -20,29 +20,29 @@ Node.js TypeScript boilerplate project.
 
 ## Build Instructions
 
-> This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts through daizong via `npm run r <script>` or `yarn r <script>`.
+> This project uses [daizong](https://github.com/mgenware/daizong) to manage scripts. You need to run scripts via `npx daizong <script>` or `dz <script>` (if you installed [daizong](https://github.com/mgenware/daizong) globally).
 
-### For development
+### Development
 
-- `npm run r dev` starts the development mode, which watches and compiles all source files including tests files.
-- `npm run r t` runs tests in development mode (requires build files).
+- `dz dev` starts the development mode, which watches and compiles all source files including tests files.
+- `dz t` runs tests in development mode (requires build files).
 
-You can keep two terminal tabs during development, one for `npm run r dev`, the other for `npm run r t`.
+You can keep two terminal tabs during development, one for `dz dev`, the other for `dz t`.
 
-### For production
+### Production mode
 
-- `npm run r build` cleans, lints, compiles the project and runs tests.
+- `dz build` cleans, lints, compiles the project and runs tests.
 
 ### Other scripts
 
 You do not need to manually run these scripts, they are already integrated into other scripts.
 
-- `npm run r lint` lints the project using ESLint, auto triggered by `#build`.
-- `npm run r clean` deletes all build artifacts, auto triggered by `#dev` or `#build`.
+- `dz lint` lints the project using ESLint, auto triggered by `#build`.
+- `dz clean` deletes all build artifacts, auto triggered by `#dev` or `#build`.
 
 ### No `prepublishOnly`
 
-The `prepublishOnly` script was removed as we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `npm run r build` before publishing.
+The `prepublishOnly` script was removed as we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `dz build` before publishing.
 
 ### Badges
 
