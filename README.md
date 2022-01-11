@@ -24,8 +24,8 @@ Node.js TypeScript boilerplate project.
 
 ### Development
 
-- `dz dev` starts the development mode, which watches and compiles all source files including tests files.
-- `dz t` runs tests in development mode (requires build files).
+- `dz dev` starts dev mode, which watches and compiles all source files including test files.
+- `dz t` runs tests in dev mode.
 
 You can keep two terminal tabs during development, one for `dz dev`, the other for `dz t`.
 
@@ -35,18 +35,18 @@ You can keep two terminal tabs during development, one for `dz dev`, the other f
 
 ### Other scripts
 
-You do not need to manually run these scripts, they are already integrated into other scripts.
+> You do not need to manually run these scripts. They are integrated into other scripts.
 
-- `dz lint` lints the project using ESLint, auto triggered by `#build`.
-- `dz clean` deletes all build artifacts, auto triggered by `#dev` or `#build`.
+- `dz lint` lints the project using ESLint, auto triggered by `dz build`.
+- `dz clean` deletes all build artifacts, auto triggered by `dz dev` or `dz build`.
 
 ### No `prepublishOnly`
 
-The `prepublishOnly` script was removed as we recommend using [np](https://github.com/sindresorhus/np) to publish packages, which will automatically run `npm test`, which runs `dz build` before publishing.
+The `prepublishOnly` `package.json` script was removed as we now recommend using [np](https://github.com/sindresorhus/np) to publish packages. `np` automatically runs `npm test`, which runs `dz build` before publishing.
 
 ### Badges
 
-Please replace `__PKG_NAME__` with your package name:
+Replace `__PKG_NAME__` with your package name:
 
 ```
 [![Build Status](https://github.com/mgenware/__PKG_NAME__/workflows/Build/badge.svg)](https://github.com/mgenware/__PKG_NAME__/actions)
