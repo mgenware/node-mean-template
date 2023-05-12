@@ -2,10 +2,11 @@
 
 Node.js TypeScript boilerplate project.
 
-- Node v14+
+- Node v16+
 - **ES Modules**
 - TypeScript 3 project references for source and tests
 - Scripts for development, testing, linting, and building
+- Github Actions
 
 > For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
 
