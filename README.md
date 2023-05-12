@@ -4,8 +4,8 @@ Node.js TypeScript boilerplate project.
 
 - Node v14+
 - **ES Modules**
-- Uses TypeScript 3 project references for source and tests
-- Scripts for development, testing, linting, clean and build
+- TypeScript 3 project references for source and tests
+- Scripts for development, testing, linting, and building
 
 > For Web components projects, see [node-mean-template-wc](https://github.com/mgenware/node-mean-template-wc)
 
@@ -13,10 +13,10 @@ Node.js TypeScript boilerplate project.
 
 |              | Description                                | Uploaded to Git | Uploaded to npm |
 | ------------ | ------------------------------------------ | --------------- | --------------- |
-| `src`        | TypeScript source files                    | ✅              | ❌              |
-| `tests`      | TypeScript tests files                     | ✅              | ❌              |
+| `src`        | TypeScript source                          | ✅              | ❌              |
+| `tests`      | TypeScript tests                           | ✅              | ❌              |
 | `dist`       | Compiled JavaScript, type definition files | ❌              | ✅              |
-| `dist_tests` | Compiled JavaScript tests files            | ❌              | ❌              |
+| `dist_tests` | Compiled JavaScript tests                  | ❌              | ❌              |
 
 ## Build Instructions
 
