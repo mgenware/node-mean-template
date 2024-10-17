@@ -28,15 +28,15 @@
   ],
   "devDependencies": {
     "@types/mocha": "^10.0.6",
-    "@types/node": "^20.10.4",
+    "@types/node": "^22.7.6",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
-    "daizong": "^0.27.0",
+    "daizong": "^0.28.0",
     "eslint": "^8.55.0",
     "eslint-config-mgenware": "^0.10.0",
     "eslint-plugin-import": "^2.29.0",
-    "mgenware-tsconfig-node": "^14.2.0",
-    "mocha": "^10.0.0",
+    "mgenware-tsconfig-core": "^20.0.0",
+    "mocha": "^10.2.0",
     "source-map-support": "^0.5.21",
     "typescript": "^5.3.3"
   }
