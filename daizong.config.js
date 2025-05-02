@@ -18,8 +18,7 @@ export default {
     },
   },
 
-  // Lints the project using ESLint, auto triggered by `#build`.
-  lint: 'eslint --max-warnings 0 --ext .ts src/ tests/',
+  lint: 'npx --yes oxlint --deny-warnings',
 
   // Runs tests when you already have `#dev` running.
   t: 'mocha --parallel --require source-map-support/register "dist_tests/**/*.test.js"',
