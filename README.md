@@ -38,7 +38,7 @@ You can keep two terminal tabs during development, one for `dz dev`, the other f
 
 > You do not need to manually run these scripts. They are integrated into other scripts.
 
-- `dz lint` lints the project using ESLint, auto triggered by `dz build`.
+- `dz lint` lints the project using oxlint, auto triggered by `dz build`.
 - `dz clean` deletes all build artifacts, auto triggered by `dz dev` or `dz build`.
 
 ### No `prepublishOnly`
